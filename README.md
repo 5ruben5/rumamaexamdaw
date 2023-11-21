@@ -12,6 +12,8 @@
 
 6 - Nos vamos al navegador y en la url introducimos localhost y nos cargara nuestro proyecto.
 
+Frase del dia: Los profesores de la Florida estan muy chetados.
+
 ## Authors
 
 - [Rubén Martínez Martínez](https://github.com/5ruben5)
