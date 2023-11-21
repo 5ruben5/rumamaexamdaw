@@ -1,0 +1,11 @@
+# Dockerfile para el servicio de base de datos
+FROM mysql:8.2
+
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=rumama
+ENV MYSQL_USER=ruben
+ENV MYSQL_PASSWORD=ruben
+
+COPY ./init /docker-entrypoint-initdb.d
+
+EXPOSE 3306

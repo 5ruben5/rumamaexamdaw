@@ -1,0 +1,4 @@
+# Dockerfile para el servicio phpMyAdmin
+FROM phpmyadmin/phpmyadmin
+
+EXPOSE 80
